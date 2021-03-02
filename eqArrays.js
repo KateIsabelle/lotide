@@ -9,9 +9,9 @@ const assertEqual = function(actual, expected) {
 };
 
 const eqArrays = function(array1, array2) {
-array1 = JSON.stringify(array1);
-array2 = JSON.stringify(array2);
-return assertEqual(array1, array2);
-}
-console.log(eqArrays([1,2,3], [1,2,3])); // returns true
-console.log(eqArrays([1,2,"3"], [1,2,3])); // returns false 
+  array1 = JSON.stringify(array1);
+  array2 = JSON.stringify(array2);
+  return assertEqual(array1, array2);
+};
+console.log(eqArrays([1, 2, 3], [1, 2, 3])); // returns true
+console.log(eqArrays([1, 2, "3"], [1, 2, 3])); // returns false

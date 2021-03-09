@@ -1,5 +1,8 @@
 const middle = function(arr = []) {
   let middleArray = [];
+  if (!Array.isArray(arr)) {
+    return undefined;
+  }
   if (arr.length > 2) {
     if (arr.length % 2 === 0) {
       let index = arr.length/2;

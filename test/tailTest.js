@@ -5,9 +5,6 @@ describe('#tail()', () => {
   it('should return [2, 3] for [1, 2, 3]', () => {
     assert.deepEqual(tail([1, 2, 3]), [2, 3]);
   });
-  it('should return ["goodbye", "adios"] for ["hello", "goodbye", "adios"]', () => {
-    assert.deepEqual(tail(["hello", "goodbye", "adios"]), ["goodbye", "adios"]);
-  });
   it('should not return [3, 4] for [1, 2, 3, 4]', () => {
     assert.notDeepEqual(tail([1, 2, 3, 4]), [3, 4]);
   });
@@ -19,10 +16,5 @@ describe('#tail()', () => {
   });
 })
 
-// const assertArraysEqual = require('../assertArraysEqual')
-// assertArraysEqual(tail([1,2,3]), [2,3]);
-// assertArraysEqual(tail(["hello", "goodbye", "adios"]), ["goodbye", "adios"]);
-// console.log("should fail>")
-// assertArraysEqual(tail([1,2,3,4]), [3,4]);
 
 

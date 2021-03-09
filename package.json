@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@davik/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lodash-inspired mini utility library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/KateIsabelle/lotide.git"
   },
-  "author": "",
+  "author": "Kate Davis, kate.davis887@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KateIsabelle/lotide/issues"
